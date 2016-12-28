@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  background:#DCDCDC;
+}
+
+
+.nav ul
+{
+        list-style:none;
+        background-color:orange;
+        text-align:left;
+        padding:0;
+        margin:0;        
+
+}
+
+        .nav li{
+		font-family:'Montserrat',sans-serif;
+		font-size:1.5em;
+		
+                border-bottom: 5px solid orange;
+               
+       }
+                 
+       .nav  a{
+               padding: 30px;
+               background:orange;
+	       display:block;
+               text-decoration:none;
+	       transition: .3s background-color;
+               color:#DCDCDC;
+       }
+
+	.nav a:hover{
+                background-color: white;
+                color:blue;
+                box-shadow:0px 1px 1px #666;
+       } 
+			
+			
+      .nav li a:active{ background-color: #ff8f00; }
+
+    .nav li {
+    display: inline-block;
+    margin-right: -4px;
+ border-bottom-width: 15px;
+    }
+
+.body_title h1{
+font-size:2.8em;
+color:#DCDCDC;
+background-color: orange;
+font-family:'Montserrat',sans-serif;
+text-align:center;
+line-height:0.9em;
+margin:0 ;
+padding-top:0.2cm;
+text-transform:uppercase;
+border-bottom-left-radius: 3em;
+ border-bottom-right-radius: 3em;
+ 
+border-bottom: 5px solid orange;}
+
+.body_title  p{
+font-size:0.3em
+color:orange;
+}
+
+.content {
+margin: 40px 0;
+background:orange;
+color:#DCDCDC;
+height:25em;
+line-height:3em;
+clear:both;
+
+}
+
+.content h2{
+font-size:1.8em;
+color:#DCDCDC;
+font-family:'Montserrat',sans-serif;
+width:30.667%;
+margin-left:4%;
+float:left;
+}
+
+.content h2 p{
+font-size:0.6em;
+color:#DCDCDC;
+font-family:'Montserrat',sans-serif;
+}
+.content h2 p:hover{
+color:blue;
+}
+
+
+.paragraph {
+
+font-family:'Montserrat',sans-serif;
+margin:5px;
+text-indent:60px;
+font-size:1.3em;
+color:#DCDCDC;
+}
+.paragraph2 {
+font-family:'Montserrat',sans-serif;
+margin:0px;
+text-indent:60px;
+font-size:1.3em;
+
+color:#DCDCDC;
+}
+.paragraph:hover{
+ color:blue;
+}
+.paragraph2:hover{
+ color:blue;
+}
+.content button{
+font-family:'Montserrat',sans-serif;
+color:grey;
+text-align:center;
+font-size:1.3em;
+margin:auto
+display:block;
+}
+.content button:hover{
+color:blue;
+}
+
+.footer{
+border-bottom:2px #ccc solid;
+margin-bottom:10px;
+}
+.footer p{
+text-align:center;
+text-transform:uppercase;
+font-size:100%;
+color:grey;
+
+}
